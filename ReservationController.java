@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cg.dto.ReservationDto;
 import com.cg.entity.Reservation;
-import com.cg.service.ReservationService;
+import com.cg.serviceimpl.ReservationService;
 
 @RestController
 @RequestMapping("/reservation")
